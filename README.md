@@ -3,6 +3,9 @@ facemelt
 
 Java and Spring experiment with pretty pathnames.
 
+Not even alpha quality.  Stolen from a Maven archetype and tweaked
+minimally.
+
 Originally written to prove that a Java/Spring web app can be used to
 provide customer-friendly URLs for individual sites.  Also a first few
 tentative steps into the world of such development, which quickly
@@ -34,12 +37,6 @@ Resulting .war file expects to be installed as ROOT.war.
 
 External web server setup: "htdocs" in this directory maps to the
 document root of your local web server.  Concept was proven with
-JBoss on `http://localhost:8080/` and Apache on `http://localhost/` e.g.
-
-      http://localhost:8080/grace/
-
-gets some of its style from
-
-     http://localhost/facemelt/grace/style.css
-
-Not even alpha quality.  Stolen from a Maven archetype and tweaked minimally.
+JBoss on `http://localhost:8080/` and Apache on `http://localhost/`
+e.g. `http://localhost:8080/grace/` gets some of its style from
+`http://localhost/facemelt/grace/style.css`.
