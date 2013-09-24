@@ -36,10 +36,10 @@ External web server setup: "htdocs" in this directory maps to the
 document root of your local web server.  Concept was proven with
 JBoss on `http://localhost:8080/` and Apache on `http://localhost/` e.g.
 
-http://localhost:8080/grace/
+      http://localhost:8080/grace/
 
 gets some of its style from
 
-http://localhost/facemelt/grace/style.css
+     http://localhost/facemelt/grace/style.css
 
 Not even alpha quality.  Stolen from a Maven archetype and tweaked minimally.
