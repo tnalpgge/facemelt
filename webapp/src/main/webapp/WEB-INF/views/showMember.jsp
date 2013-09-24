@@ -18,7 +18,7 @@
   <body>
     <div id="container">
       <div id="content">
-	<h1>facemelt | Show One Membern</h1>
+	<h1>facemelt | Show One Member</h1>
 
 	<c:choose>
 	  <c:when test="${empty member}">
